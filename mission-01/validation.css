@@ -1,0 +1,19 @@
+.list1, .list2{
+  padding: 8px 8px 8px 16px;
+  width: 320px;
+  height: 30px;
+  background: #CCC;
+  border-radius: 34px;
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+.icon{
+  display: block;
+  background: url(./images/validation_icon\ 2.png) no-repeat;
+  background-position: 4%;
+  text-decoration: none;
+  color:black;
+  margin-left: 2px;
+  padding-left: 35px;
+}

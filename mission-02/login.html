@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>과제3</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <!-- 주황박스 생성 -->
+  <div class="container-box">
+    <h1>로그인</h1>
+    <!-- 흰 박스 생성-->
+    <div>
+      <form action="" method="POST" class="loginForm">
+        <fieldset>
+          <legend>로그인 폼</legend>
+          <!-- 아이디, 비밀번호 그룹 -->
+          <div class="login__group">
+            <!-- 아이디의 label-input -->
+            <div class="idInput">
+              <label for="ID" class="idInput__label">아이디</label>
+              <input type="text" id="ID" name="searchID" required
+                class="idInput__input" placeholder="euid@euid.deum" />
+            </div>
+            <!-- 비밀번호의 label-input -->
+            <div class="pwInput">
+              <label for="PW" class="pwInput__label" ">비밀번호</label>
+              <input type="password" id="PW" name="searchpw" required
+                class="pwInput__input" placeholder="8자리 이상" />
+            </div>
+
+            <!-- 로그인 버튼 생성 -->
+            <button type="submit" class="login-button">로그인</button>
+          </div>
+        </fieldset>
+
+        <!-- 경계선 -->
+        <div class="line"></div>
+
+        <!-- 회원가입, 아이디 비밀번호 찾기 버튼 -->
+        <ul class="help__group">
+          <li><a href="https://www.naver.com/" class="new">회원가입</a></li>
+          <li><a href="https://www.naver.com/" class="find">아이디 비밀번호 찾기</a></li>
+        </ul>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>

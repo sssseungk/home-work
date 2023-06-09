@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Pretendard';
+  font-style: normal;
+  color: #181818;
+}
+
+
+/* 회색 박스 */
+.menu_box{
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  width: 190px;
+}
+
+/* 제목 : '관련 사이트' */
+h2{
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.title{
+  color: #ED552F;
+}
+
+
+/*흰 박스*/
+.category{
+  background: #FFFFFF;
+  margin: 8px 12px 12px 12px;
+  width: 165px;
+  height: 30px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.category:hover{
+  width: 165px;
+  height: 120px;
+  transition: all 400ms;
+}
+
+.list, .list1{
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 4px;
+  padding-left: 28px;
+  margin-top: 4px;
+}
+
+.list1{
+  display: none;
+}
+
+.category:hover .list1{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: #181818;
+}
+
+

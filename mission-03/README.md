@@ -1,4 +1,4 @@
-# 과제 3: transition을 활용한 반응형 웹
+# 과제 3: transition을 활용한 반응형 웹 제작
 
 ## transition.html
 - `<div class="menu_box">` : div 태그에 menu_box 클래스를 선언하여 겉의 회색 박스를 생성하였다.

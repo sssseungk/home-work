@@ -1,4 +1,4 @@
-# 과제 3: Position을 활용한 로그인 창
+# 과제 2: Position을 활용한 로그인 창
 
 ## Login.html
 - `div class="container-box` : 로그인 창 배경인 주황박스 생성하기

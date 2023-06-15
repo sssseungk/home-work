@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.favorite_site{
+  position: relative;
+  width: 190px;
+  height: 147px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+}
+
+.title{
+  width: 90px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #181818;
+  margin-left: 10px;
+}
+
+.orange_title{
+  color: #ED552F;
+}
+
+.site_plus{
+  position: absolute;
+  top: 12.45px;
+  right: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.favorite_list{
+  font-size: 11px;
+  list-style: none;
+  padding-left: 0;
+  counter-reset: number;
+}
+
+.favorite_item{
+  margin: 0px 8px 8px;
+  text-decoration: none;
+
+}
+.favorite_item::before{
+  display: inline-block;
+  counter-increment: number;
+  padding-left: 5px;
+  content: counter(number);
+  width: 12px;
+  height: 16px;
+  background: #A3A3A3;
+  border-radius: 5px;
+  color: white;
+}
+
+.favorite_link{
+  text-decoration: none;
+  width: 25px;
+  height: 17px;
+  font-size: 11px;
+  color: #000000;
+}
+
+.sprite{
+  background: url(rank.png) no-repeat;
+  height: 15px;
+}
+.sprite1{
+  background-position: 155px 2px;
+}
+
+.sprite2{
+  background-position: 155px -42px;
+}
+
+.sprite3{
+  background-position: 155px -19px;
+}
+
+.sprite4{
+  background-position: 155px 2px;
+}
